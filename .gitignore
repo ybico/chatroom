@@ -1,0 +1,7 @@
+#files
+/npm-debug.log
+
+#directories
+#node_modules/
+.git/
+#.meteor/
