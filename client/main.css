@@ -1,1 +1,99 @@
 /*styles for the chat room page*/
+
+.top-margin{
+	margin-top: 70px;
+}
+
+#viewer_iframe {
+    border: 1px solid gray;
+    resize: both;
+    width: 100%;
+    height: 100%;
+  }
+
+.navbar .navbar-brand {
+  padding-top: 23px;
+}
+
+.navbar-brand{
+  text-shadow: 2px 2px 1px #adaaaa;
+}
+
+
+.login-buttons-dropdown-align-{/* outter div */
+	background-color: #e0dede;
+	border-radius: 5px;
+	border: solid 1px #1f4068;
+	padding: 5px;
+}
+
+.login-form{/* inner div form */
+	background-color: #efeded;
+	border-radius: 10px;
+	border: solid 1px #e0dede;
+	padding: 10px;
+}
+
+.accounts-dialog{
+	background-color: #efeded;
+	border-radius: 10px;
+	border: solid 1px #e0dede;
+	padding: 10px;
+}
+
+/*.login-close-text-clear{
+	background-color: #efeded;
+	border-radius: 10px;
+	border: solid 1px #e0dede;
+	padding: 10px;
+}*/
+
+a.login-link-text, a.login-close-text, a.additional-link{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.login-link-text:hover, a.login-close-text:hover, a.additional-link:hover{
+	border-bottom: dashed 1px #666666;
+}
+
+#login-email{
+	border: solid 1px #999999;
+	border-radius: 5px;
+}
+
+#login-password{
+	border: solid 1px #999999;
+	border-radius: 5px;
+}
+
+#login-old-password{
+	border: solid 1px #999999;
+	border-radius: 5px;
+}
+
+#forgot-password-email{
+	border: solid 1px #999999;
+	border-radius: 5px;
+}
+
+.login-button{
+	background-color: #6983aa;
+	border-radius: 5px;
+	border: solid 1px #6983aa;
+	padding: 2px;
+	color: #f5f5f5;
+	cursor: pointer;
+}
+
+.login-button:hover{
+	background-color: #748fb8;
+}
+
+#login-buttons-logout{
+	margin-top: 5px;
+}
+
+.error-message{
+	color: #c70039;
+}
