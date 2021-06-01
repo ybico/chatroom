@@ -2,6 +2,6 @@
 /npm-debug.log
 
 #directories
-#node_modules/
+node_modules/
 .git/
-#.meteor/
+.meteor/
