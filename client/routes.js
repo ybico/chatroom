@@ -5,8 +5,19 @@ Router.configure({
 });
 
 // the main route. showing the list of sites.
+//Router.route('/', function () {
+    //this.render('chatroomList');
+//});
+/*Router.route('/', function () {
+  this.render('Home', {
+    data: function () { return Items.findOne({_id: this.params._id}); }
+  });
+});*/
 Router.route('/', function () {
-    this.render('chatroomList');
+  this.render('Home');
+});
+Router.route('/About', function () {
+  this.render('About');
 });
 
 // this route is for the discussion page for a site
